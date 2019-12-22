@@ -61,7 +61,9 @@ public class GameSettings : MonoBehaviour
         settingsName.Add("rumble");
         settingsName.Add("graphicsQuality");
 
-        // Loading saved settings
+
+        // Load saved settings and/or set them to their defaults
+        RefreshSettings();
     }
 
     private void RefreshSettings()
